@@ -42,4 +42,7 @@ jobs:
           channel: '#tpcicd'
         if: always()
 
+      - name: Analysing the code with pylint
+        run: |
+          pylint $(git ls-files '*.py')
 
