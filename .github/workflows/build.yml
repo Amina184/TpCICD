@@ -42,8 +42,4 @@ jobs:
           channel: '#tpcicd'
         if: always()
 
-        - name: Analysing the code with pylint
-        run: |
-          pip install pylint
-          pylint $(git ls-files '*.py')
 
