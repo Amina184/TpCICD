@@ -1,11 +1,15 @@
+""" file of the app """
 #fonction d'addition
-def summ(a, b):
-    return a + b
+def summ( nb1, nb2):
+    """ function of sum  """
+    return nb1 + nb2
 
 #fonction de soustraction
-def minus(a, b):
-    return a - b
+def minus(nb1, nb2):
+    """ function of minus  """
+    return nb1 - nb2
 
 #fonction de multiplication
-def multiply(a, b):
-    return a * b
+def multiply(nb1, nb2):
+    """ function of multiply  """
+    return nb1 * nb2
